@@ -1,0 +1,58 @@
+{
+  "vpc-provider:account=009633205895:filter.tag:Name=qamaint:region=us-east-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-0a04aab11fb67da39",
+    "vpcCidrBlock": "10.23.117.0/24",
+    "availabilityZones": [],
+    "vpnGatewayId": "vgw-010332d10715a91b4",
+    "subnetGroups": [
+      {
+        "name": "Private",
+        "type": "Private",
+        "subnets": [
+          {
+            "subnetId": "subnet-0fdd85c995f3e5e0f",
+            "cidr": "10.23.117.128/26",
+            "availabilityZone": "us-east-1a",
+            "routeTableId": "rtb-0ace7050992f0528c"
+          },
+          {
+            "subnetId": "subnet-0438f8fd1c54da7da",
+            "cidr": "10.23.117.96/27",
+            "availabilityZone": "us-east-1a",
+            "routeTableId": "rtb-0cb44642587db69dc"
+          },
+          {
+            "subnetId": "subnet-0b7bd876e2d486bde",
+            "cidr": "10.23.117.64/27",
+            "availabilityZone": "us-east-1a",
+            "routeTableId": "rtb-08c153e1a5052771e"
+          },
+          {
+            "subnetId": "subnet-0c16b64030f35d41d",
+            "cidr": "10.23.117.192/26",
+            "availabilityZone": "us-east-1b",
+            "routeTableId": "rtb-022a115d1c84ffdab"
+          }
+        ]
+      },
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-057f5ee7791f3e70b",
+            "cidr": "10.23.117.0/27",
+            "availabilityZone": "us-east-1a",
+            "routeTableId": "rtb-0b04e90e577408f18"
+          },
+          {
+            "subnetId": "subnet-0b1265887a978bc09",
+            "cidr": "10.23.117.32/27",
+            "availabilityZone": "us-east-1b",
+            "routeTableId": "rtb-0bdbbd8a62fdad017"
+          }
+        ]
+      }
+    ]
+  }
+}
